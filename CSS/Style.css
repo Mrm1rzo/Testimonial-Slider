@@ -69,3 +69,31 @@ body {
   border: 0px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+@media (max-width: 500px) {
+  body {
+    padding: 100px 50px 0;
+  }
+ 
+  .testimonial-name {
+    font-size: 28px;
+  }
+
+  .testimonial-text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    padding: 100px 20px 0;
+  }
+
+  .testimonial-name {
+    font-size: 22px;
+  }
+
+  .testimonial-text {
+    font-size: 15px;
+  }
+}
